@@ -10,7 +10,7 @@ const SearchBar = ({ onFormSubmit }) => {
   };
 
   return (
-    <div className="search-bar ui segment">
+    <div className="search-bar ui segment" style={{ marginTop: "1rem" }}>
       <form onSubmit={onSubmit} className="ui form">
         <div className="ui field">
           <label>Video Search</label>
